@@ -1,11 +1,14 @@
-# Õppevara pealkiri
-Siia õppevara lühikirjeldus
+# Elektroonika baaselemendid ja loogikalülitused
+Selle õppematerjalis vaadatakse üle peamised kursuse käigus kasutatavad elektroonika baaselemendid. Käsitletakse nende omadusi, tähistamist joonisel ning kasutamist vooluahelates.
+Eraldi vaadeldakse loogikalülitusi AND, OR, NOT, NAND ja NOR ning nende ehitamist elektroonika baaselementide abil.
 
 ## Õpiväljundid
 Materjali edukalt läbinud õppija:
-* väljund 1
-* väljund 2
-* väljund 3
+* tunneb jooniselt ära elektroonika baaselemendid;
+* kirjeldab elektroonika baaselementide põhiomadusi;
+* selgitab elektroonika baaselementide kasutamist erinevate eesmärkide täitmiseks;
+* kirjeldab erinevaid loogikalülitusi ning nende omadusi;
+* koostab elektroonika baaselementide abil toimivaid loogikalülitusi.
 
 ## Hindamisjuhend
 
@@ -17,11 +20,13 @@ Siia õppematerjali juurde käiv hindamisjuhend.
 * vahend 3
 
 ## Õppematerjali osad
-* [1 osa](materjalid/1_osa.md)
-* [2 osa](materjalid/2_osa.md)
-* [3 osa](materjalid/3_osa.md)
+* [Takistid](materjalid/1_takistid.md)
+* [Dioodid](materjalid/2_dioodid.md)
+* [Transistorid](materjalid/3_transistorid.md)
+* [Kondensaatorid](materjalid/4_kondensaatorid.md)
+* [Loogikalülitused](materjalid/5_loogikalülitused.md)
+* [Iseseisvad ülesanded](materjalid/6_isesisvad_ülesanded.md)
 
 ## Õppematerjali koostajad
 
-Eesnimi Perenimi (eesnimi.perenimi@ekiri.xx)
-Eesnimi Perenimi (eesnimi.perenimi@ekiri.xx)
+Tanel Toova (tanel.toova@tlu.ee)
