@@ -8,7 +8,7 @@ Transistoreid kasutatakse laialdaselt erinevates elektroonikaseadmetes, alates l
 
 **Võimendustegur *(ingl gain)*** – Näitab, kui palju transistor võimendab sisendvoolu. Bipolaarsete transistorite puhul tähistatakse seda $h_{FE}$ või $\beta$.
 
-**Lävipinge *(ingl threshold voltage, $ V_{th} $ )*** – Väljatransistorite puhul määrab see pinge, millest alates transistor hakkab juhtima voolu. 
+**Lävipinge *(ingl threshold voltage,*** $V_{th}$ *)* – Väljatransistorite puhul määrab see pinge, millest alates transistor hakkab juhtima voolu. 
 
 **Töövõimsus *(ingl power dissipation)*** – Maksimaalne võimsus, mida transistor suudab hajutada ilma ülekuumenemiseta. Mõjutab seadme töökindlust ja jahutusvajadust.
 
