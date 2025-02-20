@@ -8,7 +8,7 @@ Transistoreid kasutatakse laialdaselt erinevates elektroonikaseadmetes, alates l
 
 **Võimendustegur *(ingl gain)*** – Näitab, kui palju transistor võimendab sisendvoolu. Bipolaarsete transistorite puhul tähistatakse seda $h_{FE}$ või $\beta$.
 
-**Lävipinge *(ingl threshold voltage, $V_{th}$)*** – Väljatransistorite puhul määrab see pinge, millest alates transistor hakkab juhtima voolu. 
+**Lävipinge *(ingl threshold voltage, $V_{th}$ )*** – Väljatransistorite puhul määrab see pinge, millest alates transistor hakkab juhtima voolu. 
 
 **Töövõimsus *(ingl power dissipation)*** – Maksimaalne võimsus, mida transistor suudab hajutada ilma ülekuumenemiseta. Mõjutab seadme töökindlust ja jahutusvajadust.
 
@@ -82,6 +82,6 @@ MOSFET transistorid jagunevad N-kanaliga ja P-kanaliga MOSFET-ideks. Need jagune
 
 * N-kanaliga MOSFET juhib mootori kiirust, sõltudes potentsiomeetri asendist ja seeläbi paisule langevast pingest.
 
-![alt text](meedia/nMOSFET_ja_mootor.png)
+    ![alt text](meedia/nMOSFET_ja_mootor.png)
 
-[interaktiivne simulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEBmAHAJmgdgGzoRmACzICcpkORICkNIJNApgLRhgBQASiOqquFLpe-cDjoSGddNUkwEHAOYiBfVaOTIcUKN3C5eM8H0OydROkjnQFAM14XeWYWqfDkwsDaix0HImBIrmBCKrwI2hLeEDCBPnEwkMKJSGBwumBY1Jna6EZ51MiQ2eDwPgghAgAKAPYALkwAdnUAzgCWNQC2TEx1AE5tIACGLU0AJhwA7qZuDtLOuso5KOh0YCYechxAA)
+    [interaktiivne simulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEBmAHAJmgdgGzoRmACzICcpkORICkNIJNApgLRhgBQASiOqquFLpe-cDjoSGddNUkwEHAOYiBfVaOTIcUKN3C5eM8H0OydROkjnQFAM14XeWYWqfDkwsDaix0HImBIrmBCKrwI2hLeEDCBPnEwkMKJSGBwumBY1Jna6EZ51MiQ2eDwPgghAgAKAPYALkwAdnUAzgCWNQC2TEx1AE5tIACGLU0AJhwA7qZuDtLOuso5KOh0YCYechxAA)
