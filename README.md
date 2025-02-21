@@ -12,12 +12,18 @@ Materjali edukalt läbinud õppija:
 
 ## Hindamisjuhend
 
-Siia õppematerjali juurde käiv hindamisjuhend.
+Selle õppematerjali puhul ei rakendata eristavat hindamist.
+
+Õppija on materjali omandanud kui ta on iseseisvalt võimeline lahendama vähemalt neli iseseisvat üleannet viiest.
 
 ## Vajalikud vahendid
-* vahend 1
-* vahend 2
-* vahend 3
+* 1 x personaalarvuti (sobib nii Windows, Linux kui macOS operatsioonisüsteem)
+* 1 x Arduino UNO arendusplaat koos sobiva USB kaabliga
+* 1 x kombineeritud LED 
+* 3 x takisti (220 Ohm)
+* 1 x makettplaat
+* 3 x potenstiomeeter (makettplaadiga ühilduv)
+* makettplaadi juhtmed (isane-isane)
 
 ## Õppematerjali osad
 * [Takistid](materjalid/1_takistid.md)
