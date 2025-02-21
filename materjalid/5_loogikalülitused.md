@@ -54,7 +54,7 @@ NING-EI-lülitus *(ingl NAND – NOT AND)* on loogikalülitus, mis on JA-lülitu
     *Allikas: https://www.electronics-tutorials.ws/logic/logic_5.html*
 
 ## NOR (VÕI-EI)
-VÕI-EI-lülitus (NOR – NOT OR) on loogikalülitus, mis on VÕI-lülituse vastandatud versioon. See tähendab, et NOR-lülitus annab kõrge väljundi (1) ainult siis, kui kõik sisendid on madalad (0). Kui vähemalt üks sisenditest on kõrge (1), siis on väljund madal (0). NOR-lülitust kasutatakse laialdaselt elektroonikas ja digitaalloogikas, kuna see on universaalne loogikalülitus – sellega saab moodustada kõiki teisi loogikalülitusi, sealhulgas AND, OR ja NOT. Seda kasutatakse näiteks mikroprotsessorites, juhtloogikas ja mäluahelates, kus NOR-lülitused aitavad hallata signaalide voogu ja teha otsuseid vastavalt loogilistele tingimustele.
+VÕI-EI-lülitus *(ingl NOR – NOT OR)* on loogikalülitus, mis on VÕI-lülituse vastandatud versioon. See tähendab, et NOR-lülitus annab kõrge väljundi (1) ainult siis, kui kõik sisendid on madalad (0). Kui vähemalt üks sisenditest on kõrge (1), siis on väljund madal (0). NOR-lülitust kasutatakse laialdaselt elektroonikas ja digitaalloogikas, kuna see on universaalne loogikalülitus – sellega saab moodustada kõiki teisi loogikalülitusi, sealhulgas AND, OR ja NOT. Seda kasutatakse näiteks mikroprotsessorites, juhtloogikas ja mäluahelates, kus NOR-lülitused aitavad hallata signaalide voogu ja teha otsuseid vastavalt loogilistele tingimustele.
 ### NOR lülituse skeem baaselementide abil:
     
 * Takistite ja transistorite abil:
