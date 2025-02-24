@@ -1,7 +1,7 @@
 # Dioodid
 Diood *(ingl Diode)* on elektrooniline baaselement, mis koosneb kahest pooljuhikihist – p-tüüpi ja n-tüüpi materjalist – moodustades PN-siirde. Selle põhifunktsioon on elektrivoolu juhtimine ühes suunas ja takistamine vastupidises suunas, toimides seega alalisvoolu suunajana. Kui dioodile rakendada ettepoole suunatud pinget (anood positiivne katoodi suhtes), siis vool pääseb läbi, samas kui vastupidise pinge korral takistab diood voolu liikumist, kuni teatud läviväärtuseni, mille ületamisel võib see kahjustuda.
 
-Dioode kasutatakse laialdaselt erinevates elektroonilistes rakendustes, sealhulgas alaldi vooluringides vahelduvvoolu muundamiseks alalisvooluks, signaalide filtreerimiseks ja pinge stabiliseerimiseks. Spetsiifilised diooditüübid, nagu Zeneri dioodid, on mõeldud pingeregulatsiooniks, LED-dioodid valguse kiirgamiseks ja Schottky dioodid kiireks lülitamiseks ning madala pingelanguga rakendusteks. 
+Dioode kasutatakse laialdaselt erinevates elektroonilistes rakendustes, sealhulgas alaldi [vooluahelates](https://github.com/nullyks/Arduino_fyysika_p6hiteadmised/blob/main/materjalid/3_vooluahelad.md) vahelduvvoolu muundamiseks alalisvooluks, signaalide filtreerimiseks ja pinge stabiliseerimiseks. Spetsiifilised diooditüübid, nagu Zeneri dioodid, on mõeldud pingeregulatsiooniks, LED-dioodid valguse kiirgamiseks ja Schottky dioodid kiireks lülitamiseks ning madala pingelanguga rakendusteks. 
 
 Dioodi tööd iseloomustab kõige paremini alljärgnev graafik, mis kujutab dioodile mõjuva voolupinge ja dioodi läbiva voolutugevuse suhet.
 

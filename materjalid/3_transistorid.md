@@ -2,7 +2,7 @@
 
 Transistor *(ingl Transistor)* on pooljuhtelement, mis toimib elektroonikas lüliti või võimendina. See koosneb tavaliselt kolmest kihist pooljuhtmaterjalist, mille vahel on kaks pn-siiret. Transistorid võivad olla bipolaartransistorid *(ingl bipolar junction transistor, BJT)* või väljatransistorid *(ingl field-effect transistor, FET)*, sõltuvalt nende ehitusest ja tööpõhimõttest. BJT puhul juhitakse voolu baasielektroodi *(ingl base)* kaudu, samas kui FET kasutab paisuelektroodi *(ingl gate)*. Transistorid võimaldavad täpset voolu ja pinge juhtimist vooluahelates.
 
-Transistoreid kasutatakse laialdaselt erinevates elektroonikaseadmetes, alates lihtsatest loogikalülitustest kuni keerukate mikroprotsessoriteni. Need on peamised komponendid võimendites, ostsillaatorites ja lülitites. Tänu oma väikesele suurusele ja energiatõhususele on transistorid kaasaegsete integraallülituste *(ingl Integrated circuit, IC)* aluseks, võimaldades arvutite, mobiiltelefonide ja muude digiseadmete arengut.
+Transistoreid kasutatakse alates lihtsatest loogikalülitustest kuni keerukate mikroprotsessoriteni. Need on peamised komponendid võimendites, ostsillaatorites ja lülitites. Tänu oma väikesele suurusele ja energiatõhususele on transistorid kaasaegsete integraallülituste *(ingl Integrated circuit, IC)* aluseks, võimaldades arvutite, mobiiltelefonide ja muude digiseadmete arengut.
 
 ## Transistori olulisemad omadused
 

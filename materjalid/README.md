@@ -1,5 +1,8 @@
 # Õppematerjali osad
 
-* [1 osa](materjalid/1_osa.md)
-* [2 osa](materjalid/2_osa.md)
-* [3 osa](materjalid/3_osa.md)
+* [Takistid](1_takistid.md)
+* [Dioodid](2_dioodid.md)
+* [Transistorid](3_transistorid.md)
+* [Kondensaatorid](4_kondensaatorid.md)
+* [Loogikalülitused](5_loogikalülitused.md)
+* [Iseseisvad ülesanded](6_isesisvad_ülesanded.md)

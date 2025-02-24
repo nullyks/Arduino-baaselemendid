@@ -1,7 +1,7 @@
 # Kondensaatorid
 Kondensaator *(ingl Capacitor)* on elektroonika baaselement, mis koosneb kahest juhtivast plaadist, mida eraldab dielektriline materjal. See komponent on võimeline salvestama ja vabastama elektrilaengut, toimides ajutise energiahoidlana. Kondensaatori laadumise ja tühjenemise protsess sõltub selle mahtuvusest, mida mõõdetakse faradites (F). Erinevalt takistitest ei muuda kondensaator püsivalt elektrienergiat soojuseks, vaid hoiab ja vabastab seda vastavalt vooluringi vajadustele.
 
-Kondensaatoreid kasutatakse laialdaselt erinevates elektroonikaseadmetes. Need stabiliseerivad pinget ja filtreerivad voolu, näiteks toiteplokkides, kus need siluvad alalisvoolu pinge kõikumisi. Samuti rakendatakse neid raadiosagedusringides signaalide edastamiseks ja vastuvõtmiseks, samuti ajastuse ja sagedusfiltrite loomisel. Lisaks kasutatakse kondensaatoreid impulssenergia salvestamiseks ja kiireks vabastamiseks, näiteks kaameravälkudes ja impulsslülitustes.
+Kondensaatoreid stabiliseerivad pinget ja filtreerivad voolu, näiteks toiteplokkides, kus need siluvad alalisvoolu pinge kõikumisi. Samuti rakendatakse neid raadiosagedusringides signaalide edastamiseks ja vastuvõtmiseks, samuti ajastuse ja sagedusfiltrite loomisel. Lisaks kasutatakse kondensaatoreid impulssenergia salvestamiseks ja kiireks vabastamiseks, näiteks kaameravälkudes ja impulsslülitustes.
 
 ## Kondensaatori olulisemad omadused
 
