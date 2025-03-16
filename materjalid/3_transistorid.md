@@ -61,27 +61,27 @@ MOSFET transistorid jagunevad N-kanaliga ja P-kanaliga MOSFET-ideks. Need jagune
   
 * NPN bipolaartransistori sümbol:
 
-    ![alt text](meedia/NPN.png)
+    ![NPN transistori sümbol](meedia/NPN.png)
 
 * PNP bipolaartransistori sümbol:
     
-    ![alt text](meedia/PNP.png)
+    ![PNP transistori sümbol](meedia/PNP.png)
 
 **MOSFET transistorid** *(ingl metal–oxide–semiconductor field-effect transistor)* - kasutatakse näiteks toiteallikates ja mootoriajamites.
 
 * MOSFET transistorite sümbolid:
 
-    ![alt text](meedia/MOSFET.png)
+    ![MOSFET sümbolid](meedia/MOSFET.png)
 
 ## Näiteid transistorite kasutamisest
 
 * Bipolaarse NPN transistoriga juhitakse LEDi heledust läbi transistori baasile langeva pinge.
-![alt text](meedia/NPN_ja_LED.png)
+![NPN transistoriga LEDi juhtimise näide](meedia/NPN_ja_LED.png)
 
     [Interaktiivne simulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgxCUQU89xi3XvxQJCPEABMGAMwCGAVwA2AFyZKGk8FB0xI7FTxQ0eGIX1PcqEJimh5iYxxjDE82TnnIwEGGlmJsDEggwgQUN2QqaXllFTYAJR4LV3N+MF5dWiokKjzoBDYAc2T+bHDS7LyoRKMTTG4wDHEGrJp8riyfNgAnSuFK8qsotnb6bDQedtoaMsgTawB9QhpF1YyIsEWfPwCgkObwt23YOC2WRfZsfhMAMQhq7hYQAAUASwA7IoYAHQBnABGcjkfzeGjYQA)
 
-* N-kanaliga MOSFET juhib mootori kiirust, sõltudes potentsiomeetri asendist ja seeläbi paisule langevast pingest.
+* N-kanaliga MOSFET [juhib mootori kiirust](https://github.com/nullyks/Arduino-mootorid-ja-toide/blob/main/materjalid/1_Alalisvoolumootorid.md), sõltudes potentsiomeetri asendist ja seeläbi paisule langevast pingest.
 
-    ![alt text](meedia/nMOSFET_ja_mootor.png)
+    ![MOSFET transistoriga mootori juhtimise näide](meedia/nMOSFET_ja_mootor.png)
 
     [Interaktiivne simulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEBmAHAJmgdgGzoRmACzICcpkORICkNIJNApgLRhgBQASiOqquFLpe-cDjoSGddNUkwEHAOYiBfVaOTIcUKN3C5eM8H0OydROkjnQFAM14XeWYWqfDkwsDaix0HImBIrmBCKrwI2hLeEDCBPnEwkMKJSGBwumBY1Jna6EZ51MiQ2eDwPgghAgAKAPYALkwAdnUAzgCWNQC2TEx1AE5tIACGLU0AJhwA7qZuDtLOuso5KOh0YCYechxAA)

@@ -1,11 +1,11 @@
 # Takistid
-Takisti on elektroonika baaselement, mis piirab elektrivoolu ja alandab pinget elektriahelates. See koosneb tavaliselt takistusmaterjalist, mis muundab elektrienergia soojusenergiaks, vähendades voolu tugevust vastavalt [Ohmi seadusele](https://github.com/nullyks/Arduino_fyysika_p6hiteadmised/blob/main/materjalid/1_Ohmi_seadus.md) $(U = I \cdot R)$. Takisti väärtust mõõdetakse oomides ($\Omega$) ja see võib olla kas fikseeritud või muutuv (nt potentsiomeeter). Takistid on valmistatud erinevatest materjalidest, nagu süsinik, metalloksiidid ja traadikeerdtakistid, ning neid valitakse sõltuvalt soovitud elektrilistest omadustest ja kasutusotstarbest.
+Takisti on elektroonika baaselement, mis piirab elektrivoolu ja alandab pinget elektriahelates. See koosneb tavaliselt takistusmaterjalist, mis muundab elektrienergia soojusenergiaks, vähendades voolu tugevust vastavalt [Ohmi seadusele](https://github.com/nullyks/Arduino-fyysika-p6hiteadmised/blob/main/materjalid/1_Ohmi_seadus.md) $(U = I \cdot R)$. Takisti väärtust mõõdetakse oomides ($\Omega$) ja see võib olla kas fikseeritud või muutuv (nt potentsiomeeter). Takistid on valmistatud erinevatest materjalidest, nagu süsinik, metalloksiidid ja traadikeerdtakistid, ning neid valitakse sõltuvalt soovitud elektrilistest omadustest ja kasutusotstarbest.
 
 Takisteid kasutatakse, et juhtida [vooluahela](https://github.com/nullyks/Arduino_fyysika_p6hiteadmised/blob/main/materjalid/3_vooluahelad.md) tööd ja kaitsta komponente liigse voolu eest. Neid rakendatakse pingejagurites, signaali reguleerimiseks, voolutugevuse piiramiseks [LED-ide](1_takistid.md) ja [transistorite](3_transistorid.md) korral ning osana filtritest ja võnkeringidest. Samuti mängivad takistid rolli [soojusandurites](https://github.com/nullyks/Arduino-erinevad-andurid/blob/main/materjalid/2_TMP36_temperatuuriandur.md) ja takistuse mõõtmises. Takistid elektroonika põhikomponent, millel on oluline roll peaaegu igas elektriahelas.
 
 ## Takisti olulisemad omadused
 
-**Nimitakistus *(ingl Resistance, R)*** - Takistuse suurus oomides ($\Omega$),  määrab, kui palju takisti piirab voolu vastavalt [Ohmi seadusele](https://github.com/nullyks/Arduino_fyysika_p6hiteadmised/blob/main/materjalid/1_Ohmi_seadus.md).
+**Nimitakistus *(ingl Resistance, R)*** - Takistuse suurus oomides ($\Omega$),  määrab, kui palju takisti piirab voolu vastavalt [Ohmi seadusele](https://github.com/nullyks/Arduino-fyysika-p6hiteadmised/blob/main/materjalid/1_Ohmi_seadus.md).
 
 **Tolerants (ingl Tolerance, $\pm$%)** – Näitab, kui palju võib tegelik takistus erineda nimitakistusest. Tüüpilised väärtused on $\pm1\%$, $\pm 5\%$ või $\pm 10\% $.
 

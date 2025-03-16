@@ -7,13 +7,13 @@ JA-lülitus *(ingl AND)* on loogikalülitus, mis annab kõrge väljundi (1) ainu
 ### AND lülituse skeemid baaselementide abil:
 * Dioodide ja takisti abil:
 
-    ![alt text](meedia/AND1.png)
+    ![AND lülitus dioodide ja takistiga](meedia/AND1.png)
     
     *Allikas: https://electronicsarea.com/or-and-and-logic-gates-with-diodes/*
     
 * Takistite ja transistorite abil:
 
-    ![alt text](meedia/AND2.jpg)
+    ![AND lülitus takistite ja transistoritega](meedia/AND2.jpg)
 
     *Allikas: https://www.electronics-tutorials.ws/logic/logic_2.html*
 ## OR (VÕI)
@@ -23,13 +23,13 @@ VÕI-lülitusi kasutatakse mitmesugustes digitaalsetes rakendustes, näiteks hä
 ### VÕI lülituse skeemid baaselementide abil:
 * Dioodide ja takisti abil:
 
-    ![alt text](meedia/OR1.jpg)
+    ![OR lülitus dioodide ja takistiga](meedia/OR1.jpg)
     
     *Allikas: https://electronicsarea.com/or-and-and-logic-gates-with-diodes/*
     
 * Takistite ja transistorite abil:
 
-    ![alt text](meedia/OR2.jpg)
+    ![OR lülitus takistite ja transistoritega](meedia/OR2.jpg)
 
     *Allikas: https://www.electronics-tutorials.ws/logic/logic_3.html*
 
@@ -39,7 +39,7 @@ EI-lülitus *(ingl NOT)* on loogikalülitus, mis pöörab oma sisendi väärtuse
     
 * Takistite ja transistorite abil:
 
-   ![alt text](meedia/NOT.jpg)
+   ![NOT lülitus](meedia/NOT.jpg)
 
     *Allikas: https://www.electronics-tutorials.ws/logic/logic_4.html*
 
@@ -49,7 +49,7 @@ NING-EI-lülitus *(ingl NAND – NOT AND)* on loogikalülitus, mis on JA-lülitu
     
 * Takistite ja transistorite abil:
 
-   ![alt text](meedia/NAND.jpg)
+   ![NAND lülitus](meedia/NAND.jpg)
 
     *Allikas: https://www.electronics-tutorials.ws/logic/logic_5.html*
 
@@ -59,6 +59,6 @@ VÕI-EI-lülitus *(ingl NOR – NOT OR)* on loogikalülitus, mis on VÕI-lülitu
     
 * Takistite ja transistorite abil:
 
-   ![alt text](meedia/NOR.jpg)
+   ![NOR lülitus](meedia/NOR.jpg)
 
     *Allikas: https://www.electronics-tutorials.ws/logic/logic_6.html*
