@@ -22,7 +22,7 @@ Selle õppematerjali puhul ei rakendata eristavat hindamist.
 * 1 x kombineeritud LED 
 * 3 x takisti (220 Ohm)
 * 1 x makettplaat
-* 3 x potenstiomeeter (makettplaadiga ühilduv)
+* 3 x potentsiomeeter (makettplaadiga ühilduv)
 * makettplaadi juhtmed (isane-isane)
 
 ## Õppematerjali osad
