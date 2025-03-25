@@ -22,11 +22,13 @@ Kondensaatorid võivad olenevalt materjalist ja konstruktsioonist olla polarisee
 Polariseeritud kondensaatorid on sellised, millel on kindel positiivne ja negatiivne viik, mis tuleb õigesti ühendada. Kui need ühendatakse valepidi, võib see põhjustada ülekuumenemist või isegi rikke. Peamised polariseeritud kondensaatorid on elektrolüütkondensaatorid, sealhulgas alumiinium- ja tantaal-elektrolüütkondensaatorid, mida kasutatakse toiteplokkides, pingefiltrites ja energiasalvestuses. Samuti kuuluvad siia superkondensaatorid, mis suudavad talletada väga suuri laenguid ja vabastada neid kiiresti.
 
 * Polariseeritud kondensaatori sümbol:
+
     ![Polariseeritud kondensaatori sümbol](meedia/polariseeritud_kondensaator.png)
 
 Mittepolariseeritud kondensaatorid on need, mida saab vooluringi ühendada mõlemat pidi, kuna neil ei ole kindlat polaarsust. Neid kasutatakse peamiselt vahelduvvoolu ja kõrgsagedusrakendustes, kus oluline on signaali täpne edastamine ja filtreerimine. Levinumad mittepolariseeritud kondensaatorid on keraamilised kondensaatorid, mis sobivad näiteks signaalitöötluseks ja raadiosagedusringides, ning filmkondensaatorid, mida kasutatakse audioseadmetes ja võrgufiltrites. Samuti kuuluvad siia mika-kondensaatorid, mida kasutatakse täpsetes mõõteseadmetes ja raadiosagedusvõimendites.
 
 * Mittepolariseeritud konsendsaatori sümbol:
+
     ![Mittepolariseeritud kondensaatori sümbol](meedia/kondensaator.png)
 
 ## Näiteid kondensaatorite kasutamisest
