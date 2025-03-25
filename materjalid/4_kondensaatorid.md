@@ -44,5 +44,5 @@ Mittepolariseeritud kondensaatorid on need, mida saab vooluringi ühendada mõle
 
         [Interaktiivne simulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEA2aAWB8CcBmSy0AOBBAdkJE0sskoFMBaMMAKAGMQAmNWsZWnr34g0UWPAhhYCDKVIkszMGiwyxcCJBYAnEXHDDBXQhVo4ELAPJ6htBGE4HazlgHMbxikZydnUFmCktNy2XJAUfGZh4PDUMKw8OJRoog4UyKSOYFiOwQD6BHmQeTxYWHkIRdBgeUx5CZBJPuCcEcLZuSIFaEUlkFiEFVWctTUjPTgsABYgSZosQA)
     * Madalpääsfilter *(ingl Low-Pass filter)*- filtreerib signaalist välja kõrgsageduse:
-    ![alt text](meedia/kõrgsagedusfilter.png)
-        [Madalpääsufiltri näide](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEA2aAWB8CcBmSy0AOBBAdkJE0sskoFMBaMMAKAHkQ05xlaEwATD1oiWAc07cBhCl1o4BIqCwBOIAV2GTaYXlHCFSLAMbatc9TM5RY8CDH5hS8QnKwYEaG3HssntDR09RQpdeXUdeGoYVi4cSmlwROQEZHAsIREAfQIsyCyuLCwshDzoMCymLNjIeIVwQS0nNNo0HLb8wsISsshSqoECrJwWAAsQeKERoA)
+    ![Madalpääsufiltri näide](meedia/kõrgsagedusfilter.png)
+        [Interaktiivne siumulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEA2aAWB8CcBmSy0AOBBAdkJE0sskoFMBaMMAKAHkQ05xlaEwATD1oiWAc07cBhCl1o4BIqCwBOIAV2GTaYXlHCFSLAMbatc9TM5RY8CDH5hS8QnKwYEaG3HssntDR09RQpdeXUdeGoYVi4cSmlwROQEZHAsIREAfQIsyCyuLCwshDzoMCymLNjIeIVwQS0nNNo0HLb8wsISsshSqoECrJwWAAsQeKERoA)
