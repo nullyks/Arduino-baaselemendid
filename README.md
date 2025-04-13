@@ -2,6 +2,10 @@
 Selle õppematerjalis vaadatakse üle peamised kursuse käigus kasutatavad elektroonika baaselemendid. Käsitletakse nende omadusi, tähistamist joonisel ning kasutamist vooluahelates.
 Eraldi vaadeldakse loogikalülitusi AND, OR, NOT, NAND ja NOR ning nende ehitamist elektroonika baaselementide abil.
 
+## Õpieesmärgid
+
+Peale selle materjali läbimist oskad nimetada ja elektroonika baaselemente ja tead, milleks neid kasutatakse. Oskad lugeda lihtsamaid elektroonikaskeeme ja saad aru, mida need teevad. Saad teada millised on tähtsamad loogikalülitused ja kuidas neid elektroonika baaskomponentide abil koostada.
+
 ## Õpiväljundid
 Materjali edukalt läbinud õppija:
 * tunneb jooniselt ära elektroonika baaselemendid;
