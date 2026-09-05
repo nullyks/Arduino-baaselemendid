@@ -1,62 +1,59 @@
 # Dioodid
-Diood *(ingl Diode)* on elektrooniline baaselement, mis koosneb kahest pooljuhikihist – p-tüüpi ja n-tüüpi materjalist – moodustades PN-siirde. Selle põhifunktsioon on elektrivoolu juhtimine ühes suunas ja takistamine vastupidises suunas, toimides seega alalisvoolu suunajana. Kui dioodile rakendada ettepoole suunatud pinget (anood positiivne katoodi suhtes), siis vool pääseb läbi, samas kui vastupidise pinge korral takistab diood voolu liikumist, kuni teatud läviväärtuseni, mille ületamisel võib see kahjustuda.
+Diood *(ingl diode)* on kahe viiguga pooljuhtelement, mis juhib elektrivoolu peamiselt ühes suunas. Enamik pooljuhtdioode põhineb p- ja n-tüüpi materjali liitekohal ehk pn-siirdel, kuid näiteks Schottky dioodis kasutatakse metalli ja pooljuhi vahelist siiret. Kui anood on katoodi suhtes positiivsema pingega, on diood päripingestatud ja juhib voolu. Vastupinge korral on vool väga väike kuni läbilöögipingeni, mille ületamine võib tavalist dioodi kahjustada.
 
-Dioode kasutatakse laialdaselt erinevates elektroonilistes rakendustes, sealhulgas alaldi [vooluahelates](https://github.com/nullyks/Arduino_fyysika_p6hiteadmised/blob/main/materjalid/3_vooluahelad.md) vahelduvvoolu muundamiseks alalisvooluks, signaalide filtreerimiseks ja pinge stabiliseerimiseks. Spetsiifilised diooditüübid, nagu Zeneri dioodid, on mõeldud pingeregulatsiooniks, [LED-dioodid valguse kiirgamiseks](https://github.com/nullyks/Arduino-ekraanid-ja-led-elemendid/blob/main/materjalid/1_segmentidega_LED_ekraan.md) ja Schottky dioodid kiireks lülitamiseks ning madala pingelanguga rakendusteks. 
+Dioode kasutatakse muu hulgas alaldi [vooluahelates](https://github.com/nullyks/Arduino-fyysika-p6hiteadmised/blob/main/materjalid/3_vooluahelad.md) vahelduvvoolu muundamiseks alalisvooluks, signaalide piiramiseks, pinge stabiliseerimiseks ja vooluahelate kaitsmiseks. Spetsiifilised diooditüübid, nagu Zeneri dioodid, on mõeldud pingeregulatsiooniks, [LED-id valguse kiirgamiseks](https://github.com/nullyks/Arduino-ekraanid-ja-led-elemendid/blob/main/materjalid/1_segmentidega_LED_ekraan.md) ja Schottky dioodid kiireks lülitamiseks ning madala pingelanguga rakendusteks.
 
-Dioodi tööd iseloomustab kõige paremini alljärgnev graafik, mis kujutab dioodile mõjuva voolupinge ja dioodi läbiva voolutugevuse suhet.
+Järgnev graafik näitab, kuidas dioodi läbiv voolutugevus muutub dioodile rakendatud pinge muutmisel.
 
 ![Dioodi graafik](meedia/UjaIsuhe.png)
 
 ## Dioodi olulisemad omadused
 
-**Lävipinge *(ingl Forward Voltage)*** –  pinge, mille juures diood hakkab juhtima voolu pärirežiimis (tüüpiliselt ränidioodidel ~0.7V, Schottky dioodidel ~0.2-0.4V).
+**Päripinge ehk päripingelang** *(ingl forward voltage, $V_F$)* – pinge dioodi anoodi ja katoodi vahel, kui dioodi läbib pärivool. Selle väärtus sõltub dioodi tüübist, voolutugevusest ja temperatuurist. Ligikaudsetes arvutustes kasutatakse ränidioodi puhul sageli väärtust 0,7 V ja Schottky dioodi puhul vahemikku 0,2–0,4 V, kuid täpne väärtus tuleb kontrollida andmelehelt.
 
-**Pingelang *(ingl Voltage Drop)*** – pinge langus peale dioodi kui diood töötab maksimaalse lubatud voolutugevusega.
+**Pärivool** *(ingl forward current, $I_F$)* – voolutugevus, mis läbib dioodi pärisuunas. Andmelehel toodud suurimat lubatud pidevat või keskmist pärivoolu ei tohi ületada.
 
-**Pärivool *(ingl Forward Current)***– maksimaalne lubatud pidev voolutugevus dioodi töötamise ajal pärirežiimis.
-
-**Läbilöögipinge *(ingl Breakdown Voltage)*** – pinge, mille juures diood hakkab pöördpolarisatsioonis juhtima voolu (kasulik näiteks Zeneri dioodidel).
+**Läbilöögipinge** *(ingl breakdown voltage, $V_{BR}$)* – vastupinge, mille juures dioodi pöördvool järsult suureneb. Tavaline diood võib läbilöögipiirkonnas kahjustuda. Zeneri diood on kavandatud selles piirkonnas töötama, kuid seda läbivat voolu tuleb piirata.
 
 ## Levinud dioodide liigid ja sümbolid
 
-**Diood** *(ingl diode)* - eristatakse signaaldioode ja võimsusdioode. Signaaldioode kasutatakse madalpingeahelates signaalitöötluseks. Võimsusdioodid taluvad olulisemalt kõrgemat voolupinget ja neid kasutatakse näiteks vahelduvvoolu muundamisel alalisvooluks.
+**Signaaldioodid ja võimsusdioodid** – signaaldioode kasutatakse väikese vooluga signaaliahelates ja kiireks lülitamiseks. Võimsusdioodid taluvad suuremat voolu ning tavaliselt ka kõrgemat vastupinget; neid kasutatakse näiteks alaldites ja toiteahelates.
    
 * dioodi sümbol:
 
     ![Dioodi sümbol](meedia/diood.png)
  
-**LED e. valgusdiood** *(ingl Light Emitting Diode)* - need dioodid kiirgavad (enamasti) nähtavat valgust, kui vool neid läbib. Kasutatakse valgusallikana (taskulamp) või signaaliallikana (infrapuna põhine kaugjuhtimispult). Samuti on nad kasutuses [lihtsamates ekraanides](https://github.com/nullyks/Arduino-ekraanid-ja-led-elemendid/blob/main/materjalid/1_segmentidega_LED_ekraan.md).
+**LED ehk valgusdiood** *(ingl light-emitting diode)* – diood, mis kiirgab pärivoolu läbimisel nähtavat või infrapunakiirgust. LED-e kasutatakse näiteks märgutuledes, valgustites, [ekraanides](https://github.com/nullyks/Arduino-ekraanid-ja-led-elemendid/blob/main/materjalid/1_segmentidega_LED_ekraan.md) ja optiliste signaalide edastamiseks, sealhulgas infrapunakaugjuhtimispultides.
 
 
 * LED sümbol:
 
     ![LED-i sümbol](meedia/LED.png)
 
-**Schottky diood** *(ingl Schottky diode)* - väga väikese pingelangusega dioodid. Kasutatakse peamiselt kaitsedioodidena.
+**Schottky diood** *(ingl Schottky diode)* – metalli ja pooljuhi siirdel põhinev väikese päripingelangu ning kiire lülitumisega diood. Seda kasutatakse näiteks alaldites, toiteahelates, kiiretes lülitusahelates ja kaitseahelates.
 
 * Schottky dioodi sümbol:
 
     ![Schottky dioodi sümbol](meedia/Schottky.png)
 
-**Zeneri diood** *(ingl Zener diode)* - väga täpse suurima lubatud vastupingega dioodid, mida kasutatakse pingeregulaatoritena.
+**Zeneri diood** *(ingl Zener diode)* – diood, mis on kavandatud töötama pöördläbilöögi piirkonnas. Selle klemmipinge püsib ettenähtud vooluvahemikus ligikaudu Zeneri pinge $V_Z$ lähedal. Zeneri dioode kasutatakse näiteks tugipinge tekitamiseks, lihtsaks pinge stabiliseerimiseks ja liigpinge piiramiseks.
 
 * Zeneri dioodi sümbol:
 
     ![Zeneri dioodi sümbol](meedia/Zener.png)
 
-**Fotodiood** *(ingl photodiode)* - fotodioodile langevat valguskiirgust kasutatakse dioodi elektrijuhtivuse muutmiseks või elektrivoolu genereerimiseks. 
+**Fotodiood** *(ingl photodiode)* – valgustundlik diood, mis muudab sellele langeva valguse elektriliseks signaaliks. Fotodioode kasutatakse näiteks valgusandurites ja optilises andmesides.
 * Fotodioodi sümbol:
 
   ![Fotodioodi sümbol](meedia/fotodiood.png)
 
 ## Näiteid dioodide kasutamisest
-* Nelja võimsusdioodi abil moodustatakse dioodisild *(ingl Full Bridge Rectifier)* mis muundab vahelduvvoolu alalisvooluks.
+* Nelja dioodi abil moodustatakse täisperioodalaldi ehk dioodisild *(ingl full-wave bridge rectifier)*. See pöörab vahelduvpinge mõlemad poolperioodid väljundis sama polaarsusega, mistõttu saadakse pulseeriv alalispinge. Ühtlasema pinge saamiseks lisatakse [silukondensaator](4_kondensaatorid.md), mida käsitletakse järgmises peatükis.
 
     ![Dioodisilla pilt](meedia/dioodisild.png)
     [Interaktiivne simulatsioon](https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3EJvKlFGt14hCgqhEogUuKLJgI2AEyn5wNQSjx4RGkIoYAzAIYBXADYAXJSu1h1UrVIFS9h05eubtokNkK37FFdjcytlLydBPwDdfRCPAHchKh8In0g2JJ4+Zwj+MUybNQ1VCIyk6OLaYTsCpLRtCJphMrYAJ2rxe2a+R3F4NhpIegRNcGIgwgRCKWnZMEgAfVFFpaHSRew0VegaRZZFlEWFzcHh7i3wMeIZsAm5Zb21yA2tpZg9g6Ol7DYgA)
 
-* Zeneri dioodi kasutamine pingeregulaatorina. Ühendame Zeneri dioodi tarbijaga paralleelselt kuid "tagurpidi" - st diood juhib voolu kui voolupinge ületab dioodi läbilöögipinge, mis on valitud vastavalt tarbija maksimaalsele lubatud pingele. Oletame, et meie tarbijale ei tohi mõjuda oluliselt suurem pinge kui 2 V olenemata sellest, kas muutub toitepinge või tarbija takistus.
-Vaata simulatsioonist kuidas mõjutab tarbija takistuse ja vooluallika pinge muutmine tarbijale mõjuvat pinget, kui zeneri diood toimib (lüliti on kinni) ja mis juhtub kui zeneri dioodi ei kasutata (lüliti on lahti)
+* Zeneri diood on ühendatud tarbijaga paralleelselt ja pöördpingestatud. Vooluallika ning tarbija vahel olev 100 Ω jadatakisti piirab voolu. Kui sisendpinge ületab Zeneri pinget, hakkab diood juhtima ja hoiab tarbijale mõjuva pinge ligikaudu 2,1 V juures. Muuda simulatsioonis toitepinget ja tarbija takistust ning võrdle tulemust sisselülitatud ja väljalülitatud Zeneri dioodiga.
 
     ![Zeneri dioodi kasutamise näide](meedia/Zeneri_näide.png)
 
