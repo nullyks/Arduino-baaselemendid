@@ -1,3 +1,3 @@
 ### Millise baaskomponendi millist omadust iseloomustab joonisel kujutatud simulatsioon?
 
-Simulatsioon demonstreerib dioodile mõjuva voolupinge ja dioodi läbiva voolutugevuse suhet.
+Simulatsioon näitab, kuidas dioodi läbiv voolutugevus muutub dioodile rakendatud pinge muutmisel.

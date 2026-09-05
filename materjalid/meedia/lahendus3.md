@@ -1,14 +1,14 @@
 ### Millised on joonisel oleva skeemi baaskomponendid?
-Kaks püsitaktistit
+Kaks püsitakistit
 Üks lüliti
 Kaks NPN bipolaartransistorit
 ### Kirjelda nende baaskomponentide ülesandeid?
-Püsitaktistite ülesandeks on piirata voolu skeemi erinevates harudes. Nagu näha on takisttuste erinevused suured ja seega on suur erinevus ka erinevaid harusid läbiva voolu tugevuses.
+2 MΩ takisti piirab Darlingtoni paari baasivoolu. 300 Ω takisti toimib koormustakistina ja piirab kollektorharu läbivat voolu. Seetõttu erinevad skeemil näidatud haruvoolud oluliselt.
 
-Lüliti ülesandeks on mehhaaniliselt katkestada või taastada vool ühes harus.
+Lüliti katkestab või sulgeb Darlingtoni paari baasivooluahela. Suletud lüliti korral tekib baasivool ja transistoripaar juhib; avatud lüliti korral baasivool katkeb ning transistoripaar sulgub.
 
-NPN bipolaartransostorite ülesandeks on reguleerida ühte haru läbivat voolu.
+NPN-transistorid moodustavad Darlingtoni paari, mis lülitab väikese baasivoolu abil kollektorharus palju suuremat voolu.
 
 ### Millist olulist põhimõtet elektriahelate juhtimisel see joonis illustreerib?
 
-See joonis illustreerib, kuidas väga väikese vooluga (see mis mõjub transistorite baasile) saab juhtida palju suuremat voolu (see mis läbib kollektorit ja emitterit). Joonisel ühendatud transistoreid nimetatakse ka darlingtoni paariks **(ingl Darlington Pair)**.
+Skeem näitab, kuidas ligikaudu 1,9 µA suuruse baasivooluga saab juhtida koormusahelas ligikaudu 14 mA voolu. Kaks järjestikku ühendatud NPN-transistorit moodustavad Darlingtoni paari *(ingl Darlington pair)*, mille vooluvõimendus on palju suurem kui üksikul transistoril.

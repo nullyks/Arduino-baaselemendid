@@ -1,8 +1,8 @@
 ### Millised on joonisel oleva skeemi baaskomponendid?
 LED-id - valgust kiirgavad dioodid (punane ja sinine)
-Potentsiomeetrid - pingejagurid, mille terminalide vaheline takistus muutub pöördvõrdeliselt
+Potentsiomeetrid – kolme viiguga reguleeritavad pingejagurid. Liugkontakti liigutamisel ühe takistusosa väärtus suureneb ja teise väärtus väheneb.
 ### Kirjelda nende baaskomponentide ülesandeid?
-LED-id kiirgavad valdust - võivad näiteks oma heledusega indikeerida mingi seadme seisundit.
-Potentsiomeetrid reguleerivad selles seadmes LED-ideni jõudvat voolu (läbi takistuse muutumise).
+LED-id kiirgavad valgust - võivad näiteks oma heledusega indikeerida mingi seadme seisundit.
+Potentsiomeetrid reguleerivad selles skeemis LED-ide heledust, muutes liugkontakti pinget ja seeläbi LED-i läbivat voolu.
 ### Kuidas joonisel kirjeldatud seadeldis töötab? Mida see teeb?
-Potentsiomeetrid muudavad vastavalt oma asendile LED-ide heledust. Kumbki potentsiomeeter kontrollib oma LED-i eraldi.
+Kumbki potentsiomeeter juhib ühe LED-i heledust teisest sõltumatult.

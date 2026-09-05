@@ -5,4 +5,4 @@
 * [Transistorid](3_transistorid.md)
 * [Kondensaatorid](4_kondensaatorid.md)
 * [Loogikalülitused](5_loogikalülitused.md)
-* [Iseseisvad ülesanded](6_isesisvad_ülesanded.md)
+* [Iseseisvad ülesanded](6_iseseisvad_ülesanded.md)
